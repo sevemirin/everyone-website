@@ -8,9 +8,14 @@ vti_approvalapproved:SR|承認済み
 vti_approvaldenied:SR|却下
 vti_timecreated:TR|25 Apr 2022 09:30:49 -0000
 vti_oldestcompatibleversion:SR|2.0.0.0
+vti_navbuttonuplabel:SR|上へ
 vti_htmlextensions:SW|.alx.asp.aspx.dwt.hta.htc.htm.html.htt.htx.jsp.master.php.php2.php3.php4.php5.phtml.shtml.stm.asa.asax.
 vti_disableautoimgsizeexts:SX|.asp
 vti_extenderversion:SR|12.0.0.0
 vti_publishmetainfokeys:VR|vti_assignedto vti_approvallevel vti_categories vti_description
+vti_navbuttonprevlabel:SR|戻る
+vti_navbuttonnextlabel:SR|進む
 vti_approvallevels:VR|承認済み 却下 レビューの承認待ち
 vti_showhiddenpages:IR|1
+vti_navbuttonhomelabel:SR|ホーム
+vti_dependenciesood:IR|1
