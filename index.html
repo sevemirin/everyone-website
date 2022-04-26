@@ -27,8 +27,16 @@
 	text-align: center;
 	font-size: medium;
 }
+
+.counter-number {
+	background-color: black;
+	color: yellow;
+}
 </style>
-<link rel="icon" type="image/png" href="favicon.png"/>
+<script>
+window.addEventListener("DOMContentLoaded",e=>{var n="";fetch("https://script.google.com/macros/s/AKfycbxnJU8akSesY9HuiKN85q9TeYbtJxQlGiAgDM40pfN0PEJGJZ7k/exec").then(e=>e.json()).then(e=>(n=[...n=String(e.your_access).padStart(4,"0")].map(e=>`<span class="counter-number">${e}</span>`),document.getElementById("access-count").innerHTML=n.join(""),e)).catch(e=>{n="ERROR"})});
+</script>
+<link rel="icon" type="image/png" href="favicon.png" />
 </head>
 
 <body style="background-image: url('https://shiotan.ilnk.info/imgfile/everyone/onpu-33.gif')">
@@ -38,9 +46,9 @@
 <p class="auto-style3">ここは雑談みんはやを運営することで有名な</p>
 <p class="auto-style3">人生たのシンフォニーのウェブサイトです。</p>
 <p class="auto-style3">↓アクセスカウンター</p>
-<p class="auto-style3"><!-- FC2カウンター ここから -->
-<script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=38222515&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=38222515&main=1" /></noscript>
-<!-- FC2カウンター ここまで --></p>
+<p class="auto-style3">
+あなたは<span id="access-count">LOADING</span>人目の訪問者です
+</p>
 <p class="auto-style3"><img height="116" src="office-staff0.gif" width="154" /></p>
 <h1 class="auto-style1">現在絶賛工事中！</h1>
 <p class="auto-style1"><a href="mailto:kon2etonertannu@ilnk.info">
