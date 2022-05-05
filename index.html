@@ -39,6 +39,13 @@
 .comment-box * {
 	font-family: sans-serif;
 }
+.comment-box input[type="submit"], .comment-box #HCB_comment_box #HCB_comment_form_box .btn-secondary {
+	border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    padding: 1px 7px 2px;
+    color: initial;
+    font-size: 1em;
+    background-image: linear-gradient(to bottom, #e4e4e4, #f7f7f7);
+}
 </style>
 <script>
 window.addEventListener("DOMContentLoaded",e=>{var n="";fetch("https://script.google.com/macros/s/AKfycbxnJU8akSesY9HuiKN85q9TeYbtJxQlGiAgDM40pfN0PEJGJZ7k/exec").then(e=>e.json()).then(e=>(n=[...n=String(e.your_access).padStart(4,"0")].map(e=>`<span class="counter-number">${e}</span>`),document.getElementById("access-count").innerHTML=n.join(""),e)).catch(e=>{n="ERROR"})});
@@ -106,15 +113,15 @@ window.addEventListener("DOMContentLoaded",e=>{var n="";fetch("https://script.go
 replace the text in the single quotes below to customize labels.*/
 hcb_user = {
 /* L10N */
-comments_header : 'コメント欄',
+comments_header : 'コメント欄です',
 name_label : '名前',
-content_label: 'コメントを入力してください',
-submit : '送信',
+content_label: 'コメントを入れてください',
+submit : '送る',
 logout_link : '<img title="log out" src="https://www.htmlcommentbox.com/static/images/door_out.svg" alt="[logout]" class="hcb-icon hcb-door-out"/>',
 admin_link : '<img src="https://www.htmlcommentbox.com/static/images/door_in.svg" alt="[login]" class="hcb-icon hcb-door-in"/>',
 no_comments_msg: 'まだコメントされていません。最初のコメントを投稿しましょう！',
 add:'Add your comment',
-again: 'Post another comment',
+again: '別のコメントを送る',
 rss:'<img src="https://www.htmlcommentbox.com/static/images/feed.svg" class="hcb-icon" alt="rss"/> ',
 said:':',
 prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
@@ -124,7 +131,7 @@ to:'to',
 website_label:'website (optional)',
 email_label:'email',
 anonymous:'Anonymous',
-mod_label:'(編集済)',
+mod_label:'(モデレーター)',
 subscribe:'Email Me Replies',
 add_image:'画像を添付',
 are_you_sure:'Do you want to flag this comment as inappropriate?',
@@ -137,20 +144,20 @@ like:'Like',
 days_ago:'日前',
 hours_ago:'時間前',
 minutes_ago:'分前',
-within_the_last_minute:'within the last minute',
+within_the_last_minute:'直前',
 
-msg_thankyou:'Thank you for commenting!',
+msg_thankyou:'コメントありがとうございます',
 msg_approval:'NOTE: This comment is not published until approved',
 msg_approval_required:'Thank you for commenting! Your comment will appear once approved by a moderator.',
 
-err_bad_html:'Your comment contained bad html.',
-err_bad_email:'Please enter a valid email address.',
-err_too_frequent:'You must wait a few seconds between posting comments.',
-err_comment_empty:'Your comment was not posted because it was empty!',
-err_denied:'Your comment was not accepted.',
-err_unknown:'Your comment was blocked for unknown reasons, please report this.',
-err_spam:'Your comment was detected as spam.',
-err_blocked:'Your comment was blocked by site policy.',
+err_bad_html:'変なHTMLです',
+err_bad_email:'変なメールアドレスです',
+err_too_frequent:'送りすぎです',
+err_comment_empty:'無は送れません',
+err_denied:'許しを乞うて下さい',
+err_unknown:'何故か送れませんでした',
+err_spam:'残念でした',
+err_blocked:'悪いことしたらだめです',
 
 /* SETTINGS */
 MAX_CHARS: 8192,
