@@ -51,6 +51,22 @@
 window.addEventListener("DOMContentLoaded",e=>{var n="";fetch("https://script.google.com/macros/s/AKfycbxnJU8akSesY9HuiKN85q9TeYbtJxQlGiAgDM40pfN0PEJGJZ7k/exec").then(e=>e.json()).then(e=>(n=[...n=String(e.your_access).padStart(4,"0")].map(e=>`<span class="counter-number">${e}</span>`),document.getElementById("access-count").innerHTML=n.join(""),e)).catch(e=>{n="ERROR"})});
 </script>
 <link rel="icon" type="image/png" href="favicon.png" />
+<link rel="stylesheet" type="text/css" href="ew_rssfeed.css" />
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="jquery.zrssfeed.min.js"></script>
+<script type="text/javascript" >
+$(document).ready(function () {
+$('#ewFeed').rssfeed('https://sushi.ski/@sis.rss', {
+limit:4,
+date:true,
+content:true,
+header:true,
+titletag: 'h4',
+snippet:true
+});
+$('#ewFeed').css({'width': '100%'});
+});
+</script>
 </head>
 
 <body style="background-image: url('https://shiotan.ilnk.info/imgfile/everyone/onpu-33.gif')">
@@ -87,7 +103,7 @@ window.addEventListener("DOMContentLoaded",e=>{var n="";fetch("https://script.go
 サイト内ページ一覧 </span>
 <img class="auto-style4" height="19" src="sozai_cman_jp_20220425185158.png" width="16" /></h2>
 <h4 class="auto-style1"><a href="admin">その他の情報</a></h4>
-<h2 class="auto-style1">
+<script type="text/javascript" src="https://mamewaza.net/blog.js?200311></script><script type="text/javascript">mamewaza_blog({selector:"#mamewaza_blog",feed:"https://misskey.io/@everyone.atom",rpp:"7",height:"auto",exp:true,url:true,date:"0",style:"div.mamewaza_blog > div{background-color:#dddddd;}div.mamewaza_blog ul.mamewaza_blog{background-color:transparent;}div.mamewaza_blog h5.mamewaza_blog,div.mamewaza_blog li,div.mamewaza_blog div.mamewaza_blog_exp{padding:10px;}div.mamewaza_blog > div{padding:0px;border:1px solid #eeeeee;font-size:12px;}div.mamewaza_blog h5.mamewaza_blog,div.mamewaza_blog ul.mamewaza_blog,div.mamewaza_blog li{border-bottom:1px solid #eeeeee;}div.mamewaza_blog h5.mamewaza_blog a,div.mamewaza_blog a.mamewaza_blog_title{color:#000;font-size:14px;text-shadow:none;}div.mamewaza_blog a.mamewaza_blog_title{font-weight:normal;}div.mamewaza_blog,div.mamewaza_blog a{color:#999999;}div.mamewaza_blog a.mamewaza_blog_url{color:#999999;}"})</script><h2 class="auto-style1">
 <img class="auto-style4" height="19" src="sozai_cman_jp_20220425185158.png" width="16" /><span class="auto-style4"> 
 リンク </span>
 <img class="auto-style4" height="19" src="sozai_cman_jp_20220425185158.png" width="16" /></h2>
@@ -105,12 +121,13 @@ window.addEventListener("DOMContentLoaded",e=>{var n="";fetch("https://script.go
 <p class="auto-style6">リンク先:everyone.ilnk.info</p>
 <p class="auto-style6">
 <img class="auto-style7" height="57" src="https://shiotan.ilnk.info/imgfile/everyone/banner.png" width="178" /></p>
-<p class="auto-style6">
+<p class="auto-style6" style="height: 24px">
 <img class="auto-style4" height="19" src="sozai_cman_jp_20220425185158.png" width="16" /><span class="auto-style4"> 
-連絡先 </span>
+アタクシのリンク </span>
 <img class="auto-style4" height="19" src="sozai_cman_jp_20220425185158.png" width="16" /></p>
 <p class="auto-style9">Misskey.io→<a href="https://misskey.io/@everyone">@everyone@misskey.io</a></p>
 <p class="auto-style9">すしすきー→<a href="https://sushi.ski/@0">@0@sushi.ski</a></p>
+<p class="auto-style9">江戸前クレール大魔人→<a href="https://msk.ilnk.info/@everyone">@everyone@msk.ilnk.info</a></p>
 <p class="auto-style9">
 <img class="auto-style4" height="19" src="sozai_cman_jp_20220425185158.png" width="16" /><span class="auto-style4"> 
 お借りさせていただきました </span>
