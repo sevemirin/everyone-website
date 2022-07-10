@@ -51,22 +51,6 @@
 window.addEventListener("DOMContentLoaded",e=>{var n="";fetch("https://script.google.com/macros/s/AKfycbxnJU8akSesY9HuiKN85q9TeYbtJxQlGiAgDM40pfN0PEJGJZ7k/exec").then(e=>e.json()).then(e=>(n=[...n=String(e.your_access).padStart(4,"0")].map(e=>`<span class="counter-number">${e}</span>`),document.getElementById("access-count").innerHTML=n.join(""),e)).catch(e=>{n="ERROR"})});
 </script>
 <link rel="icon" type="image/png" href="favicon.png" />
-<link rel="stylesheet" type="text/css" href="ew_rssfeed.css" />
-<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="jquery.zrssfeed.min.js"></script>
-<script type="text/javascript" >
-$(document).ready(function () {
-$('#ewFeed').rssfeed('https://sushi.ski/@sis.rss', {
-limit:4,
-date:true,
-content:true,
-header:true,
-titletag: 'h4',
-snippet:true
-});
-$('#ewFeed').css({'width': '100%'});
-});
-</script>
 </head>
 
 <body style="background-image: url('https://shiotan.ilnk.info/imgfile/everyone/onpu-33.gif')">
