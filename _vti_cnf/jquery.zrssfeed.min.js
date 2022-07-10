@@ -5,7 +5,7 @@ vti_modifiedby:SR|UTTYN18-RYZENPC\\uttym
 vti_nexttolasttimemodified:TW|27 Feb 2022 09:15:45 -0000
 vti_timecreated:TR|02 Jul 2022 12:28:14 -0000
 vti_extenderversion:SR|12.0.0.0
-vti_backlinkinfo:VX|index.html
+vti_backlinkinfo:VX|
 vti_syncwith_sv52.star.ne.jp\:21/sevemi.rin.ilnk.info/jinseitanosymphony:TX|02 Jul 2022 12:28:14 -0000
 vti_syncofs_sv52.star.ne.jp\:21/sevemi.rin.ilnk.info/jinseitanosymphony:TW|02 Jul 2022 12:28:30 -0000
 vti_cacheddtm:TX|02 Jul 2022 12:28:14 -0000
